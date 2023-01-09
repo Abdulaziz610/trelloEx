@@ -6,6 +6,12 @@ public class rawahiTask {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		/**
+		 * Program that read two number and only accept numbers between 0-100
+		 * the program will ask the user to enter a number between 0-100 and display error message if the numbers > 100
+		 *
+		 */
 		Scanner sc = new Scanner(System.in);
 		System.out.println(" ******* Program that Accept two number less than 100 ******* ");
 		Boolean condition = true;
@@ -18,6 +24,7 @@ public class rawahiTask {
 			 num1 = sc.nextInt();
 			if(num1 > 100) {
 				System.out.println("Error: the First number should be less than 100.");
+				//Return and ask the user to enter the number again
 			}else {
 					condition = false;
 				}
@@ -31,6 +38,8 @@ public class rawahiTask {
 			if(num2 > 100 ) {
 				System.out.println("Error: the Second number should be less than 100.");
 			}
+			
+			//Return and ask the user to enter the number again
 			else{
 				condition = false;
 				
