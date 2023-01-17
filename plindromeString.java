@@ -31,7 +31,7 @@ class plindromeString {
         }
 
         if (inputWord.equals(reverseString))
-            System.out.println("The Word is a palindrome.");
+            System.out.println("The Word " + inputWord + " is a palindrome.");
         else
             System.out.println("The Word is NOT a palindrome.");
 
